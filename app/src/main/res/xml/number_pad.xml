@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="40dp"
+    android:keyPreviewLayout="@layout/key_preview"
+    android:horizontalGap="10dp"
+    android:verticalGap="10dp"
+    android:keyHeight="40dp"
+    >
+
+    <Row>
+        <Key android:codes="49" android:keyIcon="@drawable/ic_one" android:keyEdgeFlags="left"/>
+        <Key android:codes="50" android:keyIcon="@drawable/ic_two"/>
+        <Key android:codes="51" android:keyLabel="3"/>
+        <Key android:codes="52" android:keyLabel="4"/>
+        <Key android:codes="53" android:keyLabel="D"/>
+        <Key android:codes="54" android:keyIcon="@drawable/ic_six"/>
+        <Key android:codes="55" android:keyIcon="@drawable/ic_seven"/>
+        <Key android:codes="56" android:keyLabel="E"/>
+        <Key android:codes="57" android:keyIcon="@drawable/ic_nine"/>
+        <Key android:codes="48" android:keyIcon="@drawable/ic_zero" android:keyEdgeFlags="right"/>
+</Row>
+    <Row>
+        <Key android:codes="4248" android:keyLabel="w" android:keyEdgeFlags="left"/>
+        <Key android:codes="101" android:keyIcon="@drawable/ic_e_pen"/>
+        <Key android:codes="88" android:keyIcon="@drawable/ic_r_run"/>
+        <Key android:codes="932" android:keyIcon="@drawable/ic_t_toad"/>
+        <Key android:codes="64" android:keyLabel="ya"/>
+        <Key android:codes="117" android:keyLabel="u"/>
+        <Key android:codes="4457" android:keyIcon="@drawable/ic_i_pin"/>
+        <Key android:codes="12678" android:keyIcon="@drawable/ic_o_no"/>
+        <Key android:codes="79" android:keyIcon="@drawable/ic_p_puppy" android:keyEdgeFlags="right"/>
+</Row>
+        <Row>
+        <Key android:codes="97" android:keyIcon="@drawable/ic_a_sugar" android:keyEdgeFlags="left"/>
+        <Key android:codes="115" android:keyIcon="@drawable/ic_s_sun"/>
+        <Key android:codes="916" android:keyIcon="@drawable/ic_d_dust"/>
+        <Key android:codes="632" android:keyLabel="f" />
+        <Key android:codes="5205" android:keyLabel="g"/>
+        <Key android:codes="10746" android:keyIcon="@drawable/ic_h_hut"/>
+            <Key android:codes="106" android:keyIcon="@drawable/ic_j_jug"/>
+            <Key android:codes="10755" android:keyIcon="@drawable/ic_l_luck" android:keyEdgeFlags="right" />
+</Row>
+
+
+<Row>
+<Key android:codes="5176" android:keyIcon="@drawable/ic_c_cut" android:keyEdgeFlags="left"/>
+<Key android:codes="9825" android:keyIcon="@drawable/ic_da_the"/>
+<Key android:codes="56" android:keyLabel="8"/>
+    <Key android:codes="925" android:keyLabel="N"/>
+<Key android:codes="5711" android:keyIcon="@drawable/ic_m_monday" />
+    <Key android:codes="-5"
+        android:keyLabel="DELETE"
+        android:keyWidth="30%p"
+        android:isRepeatable="true" android:keyEdgeFlags="right"/>
+</Row>
+
+
+<Row>
+    <Key android:codes="32"
+            android:keyLabel="SPACE"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="right"/>
+
+    <Key android:codes="10"
+        android:keyLabel="ENTER"
+        android:keyWidth="50%p"
+        android:keyEdgeFlags="right" />
+
+    />
+
+</Row>
+
+</Keyboard>
